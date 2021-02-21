@@ -14,9 +14,7 @@ async function run(url, username, password) {
   document.getElementById('password').value = '${password}';
   document.querySelector('[name="submit"]').click();
   `)
-  setTimeout(() => {
-    browser.quit()
-  }, 5000)
+  await browser.quit()
 }
 
 module.exports = {
