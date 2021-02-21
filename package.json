@@ -1,0 +1,26 @@
+{
+  "name": "wifi-autologin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insgreeb-pro/wifi-autologin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insgreeb-pro/wifi-autologin/issues"
+  },
+  "homepage": "https://github.com/insgreeb-pro/wifi-autologin#readme",
+  "dependencies": {
+    "chromedriver": "^88.0.0",
+    "dotenv": "^8.2.0",
+    "node-schedule": "^2.0.0",
+    "selenium-webdriver": "^4.0.0-beta.1"
+  }
+}
