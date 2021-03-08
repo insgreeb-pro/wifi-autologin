@@ -29,3 +29,7 @@ yarn start
 # or
 pm2 start index.js
 ```
+
+Note:
+
+> Running sekali saja bisa dengan perintah `node onetime`.
